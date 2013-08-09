@@ -3,6 +3,6 @@
    "description": "Styles for rendering tweets on FT pages",
    "version": "0.0.1",
    "files": [
-      "style.scss",
+      "style.scss"
    ]
 }
