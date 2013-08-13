@@ -1,8 +1,0 @@
-{
-   "name": "ft-tweet-module",
-   "description": "Styles for rendering tweets on FT pages",
-   "version": "0.0.1",
-   "files": [
-      "main.scss"
-   ]
-}
