@@ -11,7 +11,7 @@
     <div class='media iframed'><div><iframe src="//www.youtube.com/embed/{{video_id}}" frameborder="0" allowfullscreen></iframe></div></div>
   {{/youtube}}
   <ul class='metadata'>
-    {{#retweet_count}}<li class='stats'><strong>{{retweet_count}}</strong> retweets</li>{{/if}}
-    {{#favorite_count}}<li class='stats'><strong>{{favorite_count}}</strong> favorites</li>{{/if}}
+    {{#retweet_count}}<li class='stats'><strong>{{retweet_count}}</strong> retweets</li>{{/retweet_count}}
+    {{#favorite_count}}<li class='stats'><strong>{{favorite_count}}</strong> favorites</li>{{/favorite_count}}
     <li class='creation-date'><a class='permalink' title='Permalink to tweet' href='http://twitter.com/{{user.screen_name}}/statuses/{{id}}'><time>{{created_at_formatted}}</time></a></li>
 </div>
