@@ -1,11 +1,14 @@
 .ft-tweet-module {
-  padding-left: 58px;
+  background-color: #f6e9d8; /* $ftColor-Tint1 */
+  padding: 10px 10px 10px 68px;
   margin: 1em 0;
   .h-card {
     font-family: 'Helvetica Neue', Arial, sans-serif;
     font-size: 14px;
   }
-  .avatar {
+  img.avatar {
+    padding:0;
+    border:0;
     float: left;
     margin-left: -58px;
     border-radius: 4px;

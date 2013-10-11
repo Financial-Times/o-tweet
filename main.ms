@@ -3,7 +3,7 @@
     <a class='url-profile' target="_blank" title="Go to twitter profile for @{{user.screen_name}}" href='http://twitter.com/{{user.screen_name}}'><img class='avatar' src='{{{user.profile_image_url_https}}}' /></a>
     <span class='user-name'>{{user.name}}</span> tweets:
   </div>
-  <blockquote>{{text}}</blockquote>
+  <blockquote>{{{html}}}</blockquote>
   {{#photos}}
     <div class='media photo'><img src='{{{media_url_https}}}' alt='Embedded photo' /></div>
   {{/photos}}
