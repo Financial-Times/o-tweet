@@ -5,11 +5,14 @@
   </div>
   <blockquote>{{{html}}}</blockquote>
   {{#photos}}
-    <div class='media photo'><img src='{{{media_url_https}}}' alt='Embedded photo' /></div>
+    <div class='media photo'><img src='{{.}}' alt='Embedded photo' /></div>
   {{/photos}}
   {{#youtube}}
-    <div class='media iframed'><div><iframe src="//www.youtube.com/embed/{{video_id}}" frameborder="0" allowfullscreen></iframe></div></div>
+    <div class='media iframed'><div><iframe src="//www.youtube.com/embed/{{.}}" frameborder="0" allowfullscreen></iframe></div></div>
   {{/youtube}}
+  {{#vimeo}}
+    <div class='media iframed'><div><iframe src="//player.vimeo.com/video/{{.}}" frameborder="0" allowfullscreen></iframe></div></div>
+  {{/vimeo}}
   <ul class='metadata'>
     {{#retweet_count}}<li class='stats'><strong>{{retweet_count}}</strong> retweets</li>{{/retweet_count}}
     {{#favorite_count}}<li class='stats'><strong>{{favorite_count}}</strong> favorites</li>{{/favorite_count}}
