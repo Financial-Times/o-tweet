@@ -1,6 +1,8 @@
 {
 	"description": "Styles and markup for embedding tweets",
 	"origamiType": "module",
+	"origamiVersion": 1,
 	"support": "andrew.betts@ft.com",
-	"supportStatus": "active"
+	"supportStatus": "active",
+	"demos": ["demos/demo1.html"]
 }
