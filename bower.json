@@ -1,0 +1,12 @@
+{
+  "name": "o-tweet",
+  "main": [
+    "main.scss"
+  ],
+  "ignore": [
+  ],
+  "dependencies": {
+    "o-colors": "https://github.com/Financial-Times/o-colors.git#>=2.0.5",
+    "o-hoverable": "https://github.com/Financial-Times/o-hoverable.git"
+  }
+}
