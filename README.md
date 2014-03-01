@@ -1,12 +1,6 @@
 # Tweet (module)
 
-This is an [Origami](http://financial-times.github.io/ft-origami/) module that renders a tweet in FT style.
-
-## Installation
-
-This module conforms to the Origami standard, so it can be installed by following the guide to [using modules](http://financial-times.github.io/ft-origami/docs/component-types/modules#using_modules).
-
-## Formatting Tweets
+This is an [Origami](http://origami.ft.com) module that renders a tweet in FT style.
 
 Data properties listed in the template follow Twitter's response data model for the [statuses/show](https://dev.twitter.com/docs/api/1.1/get/statuses/show/%3Aid) API call with the following exceptions to support Mustache's logicless template syntax:
 
