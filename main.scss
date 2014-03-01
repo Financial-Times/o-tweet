@@ -1,5 +1,8 @@
+@import('o-colors/main');
+@import('o-hoverable/main');
+
 .o-tweet {
-  background-color: #f6e9d8; /* $ftColor-Tint1 */
+  background-color: oColorsGetColorFor(box, background);
   padding: 10px 20px 10px 68px;
   margin: 1em 0;
   display: inline-block;
@@ -64,7 +67,7 @@
   }
 }
 .o-tweet__permalink {
-  color: #999;
+  color: oColorsGetColorFor(body, text);
 }
 .o-tweet__stats {
   font-size: 10px;
