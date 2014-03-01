@@ -1,5 +1,4 @@
-@import('o-colors/main');
-@import('o-hoverable/main');
+@import 'o-colors/main';
 
 .o-tweet {
   background-color: oColorsGetColorFor(box, background);
