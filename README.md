@@ -1,4 +1,4 @@
-# Tweet (module)
+# Tweet module
 
 This is an [Origami](http://origami.ft.com) module that renders a tweet in FT style.
 
