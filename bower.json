@@ -6,6 +6,6 @@
   "ignore": [
   ],
   "dependencies": {
-    "o-colors": "https://github.com/Financial-Times/o-colors.git#^2.2.14"
+    "o-colors": "^2.2.14"
   }
 }
