@@ -1,0 +1,12 @@
+
+{
+	"options": {
+		"sass": "main.scss"
+	},
+    "demos": {
+        "demo": {
+            "template": "main.mustache",
+            "data": "demos/src/sample_tweet.json"
+        }
+    }
+}
