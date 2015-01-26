@@ -1,4 +1,4 @@
-# Tweet module
+# Tweet module [![Build Status](https://travis-ci.org/Financial-Times/o-tweet.svg?branch=master)](https://travis-ci.org/Financial-Times/o-tweet)
 
 This is an [Origami](http://origami.ft.com) module that renders a tweet in FT style.
 
