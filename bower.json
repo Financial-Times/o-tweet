@@ -6,6 +6,6 @@
   "ignore": [
   ],
   "dependencies": {
-    "o-colors": "^2.2.14"
+    "o-colors": ">=2.2.14 <4"
   }
 }
