@@ -8,3 +8,9 @@ Data properties listed in the template follow Twitter's response data model for 
 * `entities.urls` entires with an `expanded_url` referring to a YouTube video page should be mapped to the `videos` collection, where an additional `video_id` property should be set to the extracted ID of the video.
 * `text` should be parsed for links and turned into HTML
 * `retweet_count` and `favorite_count` should be formatted appropriately
+
+----
+
+## Licence
+
+This software is published by the Financial Times under the [MIT licence](http://opensource.org/licenses/MIT).
