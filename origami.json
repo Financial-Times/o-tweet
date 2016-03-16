@@ -2,9 +2,15 @@
 	"description": "Styles and markup for embedding tweets",
 	"origamiType": "module",
 	"origamiVersion": 1,
-	"support": "andrew.betts@ft.com",
-	"supportStatus": "not implemented",
-	"demos": [
-		"/demos/demo.html"
-	]
+	"support": "https://github.com/Financial-Times/o-tweet/issues",
+	"supportStatus": "experimental",
+	"options": {
+		"sass": "main.scss"
+	},
+    "demos": {
+        "demo": {
+            "template": "main.mustache",
+            "data": "demos/src/sample_tweet.json"
+        }
+    }
 }

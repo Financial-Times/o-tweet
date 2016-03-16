@@ -9,7 +9,7 @@
     font-size: 17px;
     margin: 7px 0;
     padding: 0;
-    border: none;
+    border: 0;
   }
 }
 .o-tweet__h-card {
@@ -17,8 +17,8 @@
   font-size: 14px;
 }
 .o-tweet__avatar {
-  padding:0;
-  border:0;
+  padding: 0;
+  border: 0;
   float: left;
   margin-left: -58px;
   border-radius: 4px;
@@ -28,7 +28,7 @@
   font-weight: bold;
 }
 .o-tweet__media {
-  margin: 10px 0 7px 0;
+  margin: 10px 0 7px;
   max-height: 300px;
   max-width: 100%;
   position: relative;
