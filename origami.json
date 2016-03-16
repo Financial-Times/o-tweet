@@ -7,10 +7,13 @@
 	"options": {
 		"sass": "main.scss"
 	},
-    "demos": {
-        "demo": {
-            "template": "main.mustache",
-            "data": "demos/src/sample_tweet.json"
-        }
-    }
+	"ci": {
+		"circle": "https://api.travis-ci.org/repos/Financial-Times/o-overlay/builds.json"
+	},
+	"demos": {
+		"demo": {
+			"template": "main.mustache",
+			"data": "demos/src/sample_tweet.json"
+		}
+	}
 }
