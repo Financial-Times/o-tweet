@@ -8,7 +8,7 @@
 		"sass": "main.scss"
 	},
 	"ci": {
-		"circle": "https://api.travis-ci.org/repos/Financial-Times/o-tweet/builds.json"
+		"circle": "https://circleci.com/api/v1/project/Financial-Times/o-tweet"
 	},
 	"demos": {
 		"demo": {
